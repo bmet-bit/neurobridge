@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling==1.33.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "neurobridge"
+version = "0.1.0"
+description = "Auditable neuroscience data conversion and verification"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+    "h5py==3.16.0",
+    "hdmf==6.2.0",
+    "neo==0.14.6",
+    "neuroconv==0.10.2",
+    "numpy==2.4.6",
+    "nwbinspector==0.7.2",
+    "pydantic==2.14.3",
+    "pyedflib==0.1.42",
+    "pynwb==4.2.0",
+    "spikeinterface==0.105.4",
+]
+
+[project.optional-dependencies]
+archive = ["dandi==0.82.0", "dandischema==0.14.0", "ruamel.yaml==0.19.1"]
+ibl = ["mtscomp==1.0.2"]
+notebook = ["ipykernel==7.4.0", "nbclient==0.11.0", "nbformat==5.11.1", "matplotlib==3.11.2"]
+dev = ["build==1.6.1", "pytest==9.2.0", "ruff==0.17.4"]
+
+[project.scripts]
+neurobridge = "neurobridge.cli:main"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["real: requires a cached public recording"]

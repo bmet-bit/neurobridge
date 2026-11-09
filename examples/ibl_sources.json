@@ -1,0 +1,85 @@
+{
+  "lf.cbin": {
+    "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-39/2021-05-10/001/raw_ephys_data/probe00/_spikeglx_ephysData_g0_t0.imec0.lf.ab8acfd9-e288-45b1-b84d-480768716273.cbin",
+    "bytes": 9708187,
+    "sha256": "0a7c8b7018853a6d4efd6614b3050db7652f1a5fb3bb9c21d474ac5fec74687c",
+    "byte_range": [
+      59789721,
+      69497908
+    ],
+    "object_bytes": 2272895528,
+    "chunks": [
+      100,
+      116
+    ]
+  },
+  "lf_meta.meta": {
+    "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-39/2021-05-10/001/raw_ephys_data/probe00/_spikeglx_ephysData_g0_t0.imec0.lf.c61ee4e3-9da7-4676-9b00-0db92de17ac4.meta",
+    "bytes": 13908,
+    "sha256": "4984a422770f9fcc2555b8c9c2038e79096633d909d3f07bc719c952bc510e71"
+  },
+  "lf_ch.ch": {
+    "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-39/2021-05-10/001/raw_ephys_data/probe00/_spikeglx_ephysData_g0_t0.imec0.lf.66e43f68-bdf3-494f-b89c-f1ec3fcecd8f.ch",
+    "bytes": 103671,
+    "sha256": "60fab3d64700fa61870a03391156bee4e81cc3a77955a17ec4bb053956bfd00b"
+  },
+  "nidq.cbin": {
+    "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-39/2021-05-10/001/raw_ephys_data/_spikeglx_ephysData_g0_t0.nidq.153347c4-e8cd-45b4-b59b-6b90cd3c33ea.cbin",
+    "bytes": 315024,
+    "sha256": "dd3a9b266bc19c137db6c70c5b6c6dafe21c669a695cc085b666b9f1adc6ba69",
+    "byte_range": [
+      1561555,
+      1876579
+    ],
+    "object_bytes": 57951756,
+    "chunks": [
+      99,
+      117
+    ]
+  },
+  "nidq_meta.meta": {
+    "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-39/2021-05-10/001/raw_ephys_data/_spikeglx_ephysData_g0_t0.nidq.d26814d0-f82b-4fa7-b9cd-f06a2579794c.meta",
+    "bytes": 1017,
+    "sha256": "264e99e935e6a3bc16f9549dd6b08a4d2e48da329991a4ebf315994a74fce5ea"
+  },
+  "nidq_ch.ch": {
+    "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-39/2021-05-10/001/raw_ephys_data/_spikeglx_ephysData_g0_t0.nidq.c398bc4b-375f-41b7-b6bc-93256d0368d2.ch",
+    "bytes": 101548,
+    "sha256": "407ed4858077d5f063f2cd98293bf581f0d64f3d253704c3fee73ff3e52f81d1"
+  },
+  "map.npy": {
+    "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-39/2021-05-10/001/raw_ephys_data/probe00/_spikeglx_ephysData_g0_t0.imec0.sync.963d27ea-6831-43ff-90fe-980e7a1d3b3b.npy",
+    "bytes": 3056,
+    "sha256": "3500f9d7862d000dc5cbbe89142c8888d40e8d3f1575fbf370651770c132480f"
+  },
+  "wiring.json": {
+    "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-39/2021-05-10/001/raw_ephys_data/probe00/_spikeglx_ephysData_g0_t0.imec0.wiring.4d96f8e2-6f81-47f6-8975-8009914a3a5c.json",
+    "bytes": 95,
+    "sha256": "b718d36196bfd73a0d0cd008f3605fe9231f32988f00f56d8b73d7e795bf0d6a"
+  },
+  "nidq_wiring.json": {
+    "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-39/2021-05-10/001/raw_ephys_data/_spikeglx_ephysData_g0_t0.nidq.wiring.e5fa77a7-8923-42b1-bc12-e7f80f694ada.json",
+    "bytes": 434,
+    "sha256": "7993422fc7979ec358316311279434c4c85d8a5bd22b1f438139c8c56793642d"
+  },
+  "location.npy": {
+    "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-39/2021-05-10/001/alf/probe00/pykilosort/%232024-05-06%23/channels.brainLocationIds_ccf_2017.a722a676-9984-4bb2-a97f-ca7884a60532.npy",
+    "bytes": 3200,
+    "sha256": "a579c15844d503a3cb89bc29f70dbd1c56b414125d80739f13df5ff26828651c"
+  },
+  "indices.npy": {
+    "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-39/2021-05-10/001/alf/probe00/pykilosort/%232024-05-06%23/channels.rawInd.62e5d1cc-c337-4a80-932c-3fc523229fd3.npy",
+    "bytes": 3200,
+    "sha256": "891dcdc2a62df368be9dcee0777340f98ce3f7d98ba2a25db334da7807c8724c"
+  },
+  "wheel_timestamps.npy": {
+    "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-39/2021-05-10/001/alf/_ibl_wheel.timestamps.f7c00529-07c9-43a7-8b43-c13173f895ae.npy",
+    "bytes": 8615584,
+    "sha256": "cddbdd812cec1cecf34d1c8313b12418d57920a41625524c4f3d995665d9900b"
+  },
+  "wheel_position.npy": {
+    "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-39/2021-05-10/001/alf/_ibl_wheel.position.1fd0697e-d61f-4163-9206-89dccd5d1740.npy",
+    "bytes": 8615584,
+    "sha256": "4b9aa9b483a471338e545001255c31614af6afd3d5dfb5a138214762c6e52912"
+  }
+}
